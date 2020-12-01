@@ -1,0 +1,18 @@
+# Cannot upload for "copyright" reasons #
+eu_cbm/
+
+# These are too big we don't want to cache them #
+# Except the graphs used in the publication #
+/graphs/*
+!/graphs/manuscript
+# Only the legend from this subdirectory is used in the publication
+!/graphs/increments/
+/graphs/increments/*
+!/graphs/increments/legend.pdf
+# Only the legend from this subdirectory is used in the publication
+!/graphs/converted_tons/
+/graphs/converted_tons/*
+!/graphs/converted_tons/legend.pdf
+
+# Also ignore the reports
+/reports/
